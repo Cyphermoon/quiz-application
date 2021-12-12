@@ -15,6 +15,20 @@ body{
     color: #fff;
     background:#333;
 }
+
+.not_responsive_warning{
+    display: none;
+    color:maroon;
+    background-color: rgb(255, 210, 210);
+    font-size: .9rem;
+    font-weight: 300;
+    padding: .5em;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    text-align: center;
+}
  
 .start_btn,
 .info_box,
@@ -425,4 +439,10 @@ footer button.show{
 .buttons button.quit:hover{
     color: #fff;
     background: #007bff;
+}
+
+@media screen and (max-width:600px) {
+    .not_responsive_warning{
+        display: block;
+    }
 }
