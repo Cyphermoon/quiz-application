@@ -1,3 +1,8 @@
-# quiz-application
+# Quiz Application
 
-This application gives questions to answer, when you are through with the questions then the result is shown
+This application quizes on math questions, each question has a timer associated with it.
+
+## Technologies
+- HTML
+- CSS
+- javascript
